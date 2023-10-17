@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>git命令 | 不爱吃鸭脖</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="description" content="晋华的个人博客">
+    <meta name="keywords" content="前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown">
+    <meta name="baidu-site-verification" content="7F55weZDDc">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/assets/css/0.styles.d9c8cf8c.css" as="style"><link rel="preload" href="/assets/js/app.7087f587.js" as="script"><link rel="preload" href="/assets/js/2.e7663ce2.js" as="script"><link rel="preload" href="/assets/js/19.9eb4ef0f.js" as="script"><link rel="prefetch" href="/assets/js/10.1f7e226f.js"><link rel="prefetch" href="/assets/js/11.f6e4b5e5.js"><link rel="prefetch" href="/assets/js/12.fc105dd9.js"><link rel="prefetch" href="/assets/js/13.af686786.js"><link rel="prefetch" href="/assets/js/14.b8a0a679.js"><link rel="prefetch" href="/assets/js/15.28175aeb.js"><link rel="prefetch" href="/assets/js/16.5de6a1ae.js"><link rel="prefetch" href="/assets/js/17.83f91d5b.js"><link rel="prefetch" href="/assets/js/18.c25ff30b.js"><link rel="prefetch" href="/assets/js/20.6a684d39.js"><link rel="prefetch" href="/assets/js/21.95b0c4ac.js"><link rel="prefetch" href="/assets/js/22.e5cf9121.js"><link rel="prefetch" href="/assets/js/23.8d6ef789.js"><link rel="prefetch" href="/assets/js/24.83813c9e.js"><link rel="prefetch" href="/assets/js/25.669474a8.js"><link rel="prefetch" href="/assets/js/26.3287bee0.js"><link rel="prefetch" href="/assets/js/27.3841e5e7.js"><link rel="prefetch" href="/assets/js/28.cb5633ac.js"><link rel="prefetch" href="/assets/js/29.a1a1cb6d.js"><link rel="prefetch" href="/assets/js/3.c4ac17a7.js"><link rel="prefetch" href="/assets/js/30.52a15d68.js"><link rel="prefetch" href="/assets/js/31.a07d8889.js"><link rel="prefetch" href="/assets/js/32.d09edb84.js"><link rel="prefetch" href="/assets/js/33.06ef6d42.js"><link rel="prefetch" href="/assets/js/34.6da289f6.js"><link rel="prefetch" href="/assets/js/35.ee22a4e9.js"><link rel="prefetch" href="/assets/js/36.8d8c7fba.js"><link rel="prefetch" href="/assets/js/37.b28f22e1.js"><link rel="prefetch" href="/assets/js/4.242d147b.js"><link rel="prefetch" href="/assets/js/5.b37386e0.js"><link rel="prefetch" href="/assets/js/6.ccd319ae.js"><link rel="prefetch" href="/assets/js/7.80d5da9b.js"><link rel="prefetch" href="/assets/js/8.47418624.js"><link rel="prefetch" href="/assets/js/9.e059bdba.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d9c8cf8c.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="不爱吃鸭脖" class="logo"> <span class="site-name can-hide">不爱吃鸭脖</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/pages/a9075a/" class="nav-link">Java</a></div><div class="nav-item"><a href="/pages/bc95b0/" class="nav-link">算法</a></div><div class="nav-item"><a href="/pages/6b46d1/" class="nav-link">k8s</a></div><div class="nav-item"><a href="/pages/652125/" class="nav-link">日常</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div> <a href="https://github.com/jinhua0" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="/img/logo.png"> <div class="blogger-info"><h3>不爱吃鸭脖</h3> <span>小学生</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/pages/a9075a/" class="nav-link">Java</a></div><div class="nav-item"><a href="/pages/bc95b0/" class="nav-link">算法</a></div><div class="nav-item"><a href="/pages/6b46d1/" class="nav-link">k8s</a></div><div class="nav-item"><a href="/pages/652125/" class="nav-link">日常</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div> <a href="https://github.com/jinhua0" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>java基础</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>并发编程</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>java虚拟机</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Spring</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Redis</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>MySQL</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>网络</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>操作系统</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>消息队列</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>设计模式</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Linux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>git</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/4375ac/" aria-current="page" class="active sidebar-link">git命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/4375ac/#git" class="sidebar-link">git</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/4375ac/#git基本概念" class="sidebar-link">git基本概念</a></li><li class="sidebar-sub-header level3"><a href="/pages/4375ac/#git常用命令" class="sidebar-link">git常用命令</a></li><li class="sidebar-sub-header level3"><a href="/pages/4375ac/#git远程仓库流程" class="sidebar-link">git远程仓库流程</a></li></ul></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Mybatis</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/categories/?category=Java" title="分类" data-v-06225672>Java</a></li><li data-v-06225672><a href="/categories/?category=git" title="分类" data-v-06225672>git</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/jinhua0" target="_blank" title="作者" class="beLink" data-v-06225672>jinhua</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2023-07-26</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">git命令<!----></h1>  <div class="theme-vdoing-content content__default"><h2 id="git"><a href="#git" class="header-anchor">#</a> git</h2> <h3 id="git基本概念"><a href="#git基本概念" class="header-anchor">#</a> git基本概念</h3> <ul><li>工作区：仓库的目录。工作区是独立于各个分支的。</li> <li>暂存区：数据暂时存放的区域，类似于工作区写入版本库前的缓存区。暂存区是独立于各个分支的。</li> <li>版本库：存放所有已经提交到本地仓库的代码版本</li> <li>版本结构：树结构，树中每个节点代表一个代码版本。</li></ul> <h3 id="git常用命令"><a href="#git常用命令" class="header-anchor">#</a> git常用命令</h3> <ul><li>全局设置
+git config --global user.name xxx：设置全局用户名，信息记录在~/.gitconfig文件中
+git config --global user.email xxx@xxx.com：设置全局邮箱地址，信息记录在~/.gitconfig文件中
+git init：将当前目录配置成git仓库，信息记录在隐藏的.git文件夹中</li> <li>常用命令
+git add XX ：将XX文件添加到暂存区
+git commit -m &quot;给自己看的备注信息&quot;：将暂存区的内容提交到当前分支
+git status：查看仓库状态
+git log：查看当前分支的所有版本
+git push -u (第一次需要-u以后不需要) ：将当前分支推送到远程仓库
+git clone git@xxx:xxx/XXX.git：将远程仓库XXX下载到当前目录下
+git branch：查看所有分支和当前所处分支</li> <li>查看命令
+git diff XX：查看XX文件相对于暂存区修改了哪些内容
+git status：查看仓库状态
+git log：查看当前分支的所有版本
+git log --pretty=oneline：用一行来显示
+git reflog：查看HEAD指针的移动历史（包括被回滚的版本）
+git branch：查看所有分支和当前所处分支
+git pull ：将远程仓库的当前分支与本地仓库的当前分支合并</li> <li>删除命令
+git rm --cached XX：将文件从仓库索引目录中删掉，不希望管理这个文件
+git restore --staged xx：将xx从暂存区里移除
+git checkout — XX或git restore XX：==将XX文件尚未加入暂存区的修改全部撤销</li> <li>代码回滚
+git reset --hard HEAD^ 或git reset --hard HEAD~ ：将代码库回滚到上一个版本
+git reset --hard HEAD^^：往上回滚两次，以此类推
+git reset --hard HEAD~100：往上回滚100个版本
+git reset --hard 版本号：回滚到某一特定版本</li> <li>远程仓库
+git remote add origin git@xxx:xxx/XXX.git：将本地仓库关联到远程仓库
+git push -u (第一次需要-u以后不需要) ：将当前分支推送到远程仓库
+git push origin branch_name：将本地的某个分支推送到远程仓库
+git clone git@xxx:xxx/XXX.git：将远程仓库XXX下载到当前目录下
+git push --set-upstream origin branch_name：设置本地的branch_name分支对应远程仓库的branch_name分支
+git push -d origin branch_name：删除远程仓库的branch_name分支
+git checkout -t origin/branch_name 将远程的branch_name分支拉取到本地
+git pull ：将远程仓库的当前分支与本地仓库的当前分支合并
+git pull origin branch_name：将远程仓库的branch_name分支与本地仓库的当前分支合并
+git branch --set-upstream-to=origin/branch_name1 branch_name2：将远程的branch_name1分支与本地的branch_name2分支对应</li> <li>分支命令
+git branch branch_name：创建新分支
+git branch：查看所有分支和当前所处分支
+git checkout -b branch_name：创建并切换到branch_name这个分支
+git checkout branch_name：切换到branch_name这个分支
+git merge branch_name：将分支branch_name合并到当前分支上
+git branch -d branch_name：删除本地仓库的branch_name分支
+git push --set-upstream origin branch_name：设置本地的branch_name分支对应远程仓库的branch_name分支
+git push -d origin branch_name：删除远程仓库的branch_name分支
+git checkout -t origin/branch_name 将远程的branch_name分支拉取到本地
+git pull ：将远程仓库的当前分支与本地仓库的当前分支合并
+git pull origin branch_name：将远程仓库的branch_name分支与本地仓库的当前分支合并
+git branch --set-upstream-to=origin/branch_name1 branch_name2：将远程的branch_name1分支与本地的branch_name2分支对应</li> <li>stash暂存
+git stash：将工作区和暂存区中尚未提交的修改存入栈中
+git stash apply：将栈顶存储的修改恢复到当前分支，但不删除栈顶元素
+git stash drop：删除栈顶存储的修改
+git stash pop：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素
+git stash list：查看栈中所有元素</li></ul> <h3 id="git远程仓库流程"><a href="#git远程仓库流程" class="header-anchor">#</a> git远程仓库流程</h3> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">git</span> init <span class="token comment"># 初始化git项目</span>
+
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span> <span class="token comment"># 将更改存到暂存区</span>
+
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&quot;提交提示&quot;</span> 
+
+<span class="token function">git</span> remote <span class="token function">add</span> origin 远程仓库地址
+
+<span class="token function">git</span> push <span class="token parameter variable">-u</span> origin master <span class="token comment"># 推送到远程仓库</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div></div></div>  <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/5c6c6b/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">Linux基本指令</div></a> <a href="/pages/39be8a/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">sql</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/5c6c6b/" class="prev">Linux基本指令</a></span> <span class="next"><a href="/pages/39be8a/">sql</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/d2b13d/"><div>
+            实习技术
+            <!----></div></a> <span class="date">08-24</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/39be8a/"><div>
+            sql
+            <!----></div></a> <span class="date">07-28</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/5c6c6b/"><div>
+            Linux基本指令
+            <!----></div></a> <span class="date">07-26</span></dt></dl> <dl><dd></dd> <dt><a href="/archives" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="https://www.zhihu.com/people/zhi-qing-72-50" title="知乎" target="_blank" class="iconfont icon-zhihu"></a><a href="https://github.com/jinhua0" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://space.bilibili.com/352135891?spm_id_from=333.337.0.0" title="blibli" target="_blank" class="iconfont icon-bilibili"></a><a href="er2578912608@163.com" title="邮箱" target="_blank" class="iconfont icon-youjian"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2019-2023
+    <span>Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"><div></div></div></div>
+    <script src="/assets/js/app.7087f587.js" defer></script><script src="/assets/js/2.e7663ce2.js" defer></script><script src="/assets/js/19.9eb4ef0f.js" defer></script>
+  </body>
+</html>
